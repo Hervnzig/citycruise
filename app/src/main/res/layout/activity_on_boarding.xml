@@ -60,7 +60,7 @@
             android:layout_height="wrap_content"
             android:layout_alignParentBottom="true"
             android:layout_alignParentRight="true"
-            android:onClick="next"
+            android:onClick="next up"
             android:paddingBottom="30dp"
             android:background="#00000000"
             android:drawableEnd="@drawable/ic_navigate_next_black_24dp"
