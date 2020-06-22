@@ -1,0 +1,80 @@
+<resources>
+    <string name="app_name">My City Guide App</string>
+    <string name="logo_name">Get a Way</string>
+    <string name="slogan_name">We will help you to find your way!</string>
+    <string name="powered_by">Powered by Herve</string>
+
+    <!--    Strings for on Boarding Screen -->
+
+
+    <!--    Titles -->
+    <string name="first_slide_title">Search your location</string>
+    <string name="second_slide_title">Make a call</string>
+    <string name="third_slide_title">Add Missing place</string>
+    <string name="fourth_slide_title">Sit back and enjoy</string>
+
+
+    <!--    Description -->
+    <string name="first_slide_desc">is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s.</string>
+    <string name="second_slide_desc">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</string>
+    <string name="third_slide_desc">If you are going to use a passage of Lorem Ipsum, you need to be sure there isn\'t anything embarrassing hidden in the middle of text.</string>
+    <string name="fourth_slide_desc">The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33</string>
+
+
+    <!--    Buttons -->
+    <string name="skip_btn">skip</string>
+    <string name="next_btn">Next</string>
+    <string name="let_get_started">Let\'s get started</string>
+
+
+    <!--    Strings for dashboard   -->
+    <string name="hotels">Hotels</string>
+    <string name="restaurants">Restaurants</string>
+    <string name="shops">Shops</string>
+    <string name="banks">Banks</string>
+    <string name="airports">Airports</string>
+
+    
+    <!--    OTP Screens-->
+    <string name="otp_code_text">Co\nde</string>
+    <string name="otp_verification_text">Verification</string>
+    <string name="otp_description_text">Enter one time  password sent on \n +0783..</string>
+
+
+    <!--    Titles and descriptions -->
+    <string name="featured_locations">All featured locations</string>
+    <string name="featured_locations_description">All the locations that are featured and have the top demand in town</string>
+    <string name="most_viewed_locations">Most viewed</string>
+    <string name="categories">Categories</string>
+    <string name="view_all">View all</string>
+    <string name="search_text">Search...</string>
+    <string name="home">home</string>
+    <string name="search">search</string>
+    <string name="profile">profile</string>
+    <string name="share">share</string>
+    <string name="rate_us">rate us</string>
+    <string name="add_missing_places">add missing places</string>
+    <string name="login">login</string>
+    <string name="logout">logout</string>
+    <string name="education">education</string>
+    <string name="shop">shop</string>
+    <string name="car_rent">car rent</string>
+    <string name="expand_all">expand all</string>
+    <string name="retailer_heading">Grow\nyour business</string>
+    <string name="retailer_tag_line">Help you get around easily</string>
+    <string name="sign_up">sign up</string>
+    <string name="how_we_work">how we work</string>
+    <string name="enter_username">Enter Username</string>
+    <string name="enter_password">Enter password</string>
+    <string name="remember_me">Remember me</string>
+    <string name="forgot_password">Forgot password</string>
+    <string name="create_account">Create account</string>
+    <string name="enter_full_name">Enter full name</string>
+    <string name="enter_email">Enter email</string>
+    <string name="enter_phone_number">Enter Phone number</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="other">Other</string>
+    <string name="choose_your_gender">Choose your gender</string>
+    <string name="select_your_age">Select your age</string>
+</resources>
