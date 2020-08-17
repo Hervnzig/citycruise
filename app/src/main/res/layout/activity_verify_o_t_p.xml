@@ -6,11 +6,12 @@
     android:layout_height="match_parent"
     tools:context=".Common.LoginSignUp.VerifyOTP"
     android:background="@color/white"
-    android:padding="30dp">
+    android:transitionName="transition_OTP_screen">
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:padding="20dp"
         android:orientation="vertical">
 
         <ImageView
@@ -24,7 +25,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/otp_code_text"
-            android:textSize="100sp"
+            android:textSize="80sp"
             android:fontFamily="@font/muli_black"
             android:textAllCaps="true"
             android:textColor="@color/black"
@@ -36,7 +37,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/otp_verification_text"
-            android:textSize="24sp"
+            android:textSize="21sp"
             android:fontFamily="@font/muli_black"
             android:includeFontPadding="false"
             android:textAllCaps="true"
@@ -47,7 +48,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/otp_description_text"
-            android:layout_marginTop="50dp"
+            android:layout_marginTop="10dp"
             android:textSize="16sp"
             android:fontFamily="@font/muli_extralight"
             android:includeFontPadding="false"
@@ -56,15 +57,19 @@
             android:textAlignment="center"/>
         
         <com.chaos.view.PinView
+            android:id="@+id/pin_view"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             app:itemCount="6"
-            app:itemWidth="50dp"
-            app:itemHeight="50dp"
+            app:itemWidth="40dp"
+            app:itemHeight="40dp"
+            android:includeFontPadding="false"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
             android:layout_gravity="center"
             android:layout_marginTop="30dp"
             app:lineColor="@color/colorAccent"
-            android:itemBackground="@color/colorAccent"
+            android:itemBackground="@color/lightWhite"
             style="@style/PinWidget.PinView"
             android:inputType="number"
             android:cursorVisible="true"

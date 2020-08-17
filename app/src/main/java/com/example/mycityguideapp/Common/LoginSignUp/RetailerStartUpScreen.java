@@ -33,7 +33,7 @@ public class RetailerStartUpScreen extends AppCompatActivity {
         }else {
             startActivity(intent);
         }
-        finish();
+//        finish();
     }
 
 
@@ -51,7 +51,7 @@ public class RetailerStartUpScreen extends AppCompatActivity {
         }else {
             startActivity(intent);
         }
-        finish();
+//        finish();
 
     }
 

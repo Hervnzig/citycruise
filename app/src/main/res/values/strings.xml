@@ -34,7 +34,7 @@
     <string name="banks">Banks</string>
     <string name="airports">Airports</string>
 
-    
+
     <!--    OTP Screens-->
     <string name="otp_code_text">Co\nde</string>
     <string name="otp_verification_text">Verification</string>
@@ -77,4 +77,20 @@
     <string name="other">Other</string>
     <string name="choose_your_gender">Choose your gender</string>
     <string name="select_your_age">Select your age</string>
+    <string name="forget_password_detail">How in the world were you able to gorget your password. Shame!!!</string>
+    <string name="make_selection_text">Choose how you want to recover your password</string>
+    <string name="make_selection_title">Make selection</string>
+    <string name="your_password_has_been_updated">Your Password has been Updated!</string>
+    <string name="new_credentials">New Credentials</string>
+    <string name="change_your_password_and_increase_security">Change your password and increase security</string>
+    <string name="new_password">New Password</string>
+    <string name="confirm_password">Confirm password</string>
+    <string name="ok">OK</string>
+    <string name="password_updated">Password Updated</string>
+    <string name="dashboard_menu">Dashboard</string>
+    <string name="manage_menu">manage</string>
+    <string name="profile_menu">Profile</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>

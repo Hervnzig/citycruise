@@ -2,15 +2,16 @@
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/signup_3rd_screen_scroll_view"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:padding="20dp"
     tools:context=".Common.LoginSignUp.SignUp3rdClass"
     android:background="@color/colorPrimary">
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:padding="20dp"
         android:orientation="vertical">
 
         <LinearLayout
@@ -45,6 +46,7 @@
             android:layout_marginTop="40dp">
 
             <com.hbb20.CountryCodePicker
+                android:id="@+id/country_code_picker"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:padding="5dp"
@@ -57,11 +59,12 @@
 
 
             <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/signup_phone_number"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:hint="@string/enter_phone_number"
                 app:startIconDrawable="@drawable/ic_phone_black_24dp"
-                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
                 app:hintTextColor="@color/black"
                 app:startIconTint="@color/black"
                 android:textColorHint="@color/black"
@@ -73,7 +76,9 @@
                 <com.google.android.material.textfield.TextInputEditText
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:inputType="phone"/>
+                    android:inputType="phone"
+                    android:textColor="@color/black"
+                    android:textCursorDrawable="@null"/>
 
             </com.google.android.material.textfield.TextInputLayout>
 
@@ -88,6 +93,7 @@
             android:background="@color/black"
             android:layout_marginTop="20dp"
             android:textColor="@color/white"
+            android:onClick="callVerifyOTPScreen"
             android:elevation="8dp"
             android:transitionName="transition_signUp_next_btn"/>
 

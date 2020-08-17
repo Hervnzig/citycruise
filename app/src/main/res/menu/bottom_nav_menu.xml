@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/bottom_nav_dash"
+        android:icon="@drawable/ic_menu"
+        android:title="@string/dashboard_menu" />
+
+    <item
+        android:id="@+id/bottom_nav_manage"
+        android:icon="@drawable/ic_maintenance"
+        android:title="@string/manage_menu"/>
+
+    <item
+        android:id="@+id/bottom_nav_profile"
+        android:icon="@drawable/ic_user_person"
+        android:title="@string/profile_menu" />
+
+</menu>
