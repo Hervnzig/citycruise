@@ -24,8 +24,8 @@
             android:id="@+id/featured_title"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="KFC"
-            android:textSize="20sp"
+            android:text="KFC restaurant"
+            android:textSize="22sp"
             android:textColor="@color/colorAccent"/>
         <RatingBar
             android:layout_width="wrap_content"
